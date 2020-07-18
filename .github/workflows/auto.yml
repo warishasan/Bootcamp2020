@@ -31,4 +31,4 @@ jobs:
       run: npm install --global surge
  
     - name: deplying surge
-      run: surge ./ cheerful-body.surge.sh --token $ {{ secrets.MY_TOKEN }}
+      run: surge ./ cheerful-body.surge.sh --token ${{ secrets.MY_TOKEN }}
